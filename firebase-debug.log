@@ -56,3 +56,12 @@
 [debug] [2023-02-13T16:12:32.283Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:230741309052:web:d508854e7b967916d83bf9/config [none]
 [debug] [2023-02-13T16:12:33.066Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:230741309052:web:d508854e7b967916d83bf9/config 200
 [debug] [2023-02-13T16:12:33.067Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:230741309052:web:d508854e7b967916d83bf9/config {"projectId":"alemaccounting","appId":"1:230741309052:web:d508854e7b967916d83bf9","storageBucket":"alemaccounting.appspot.com","apiKey":"AIzaSyAUwTPuvQqbpMEZstk3eeHP5LF4CUd0sN0","authDomain":"alemaccounting.firebaseapp.com","messagingSenderId":"230741309052"}
+[debug] [2023-02-13T16:13:01.739Z] Error: Build failed because of webpack errors
+    at /Users/tomastesfamariam/repos/alemAccounting/node_modules/next/dist/build/index.js:528:29
+    at async Span.traceAsyncFn (/Users/tomastesfamariam/repos/alemAccounting/node_modules/next/dist/trace/trace.js:79:20)
+    at async build (/Users/tomastesfamariam/repos/alemAccounting/node_modules/next/dist/build/index.js:65:29)
+    at async build (/usr/local/lib/node_modules/firebase-tools/lib/frameworks/next/index.js:50:5)
+    at async prepareFrameworks (/usr/local/lib/node_modules/firebase-tools/lib/frameworks/index.js:246:108)
+    at async deploy (/usr/local/lib/node_modules/firebase-tools/lib/deploy/index.js:53:13)
+[error] 
+[error] Error: An unexpected error has occurred.
