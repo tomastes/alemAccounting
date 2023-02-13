@@ -1,12 +1,7 @@
-import React from 'react';
-import Head from 'next/head';
+import React from "react";
+import Head from "next/head";
 
-export default function SEO({
-  description = 'startup apps landing page',
-  author = 'RedQ, Inc',
-  meta,
-  title = 'startup landing title',
-}) {
+export default function SEO({ description = "ALEM ACCOUNTING", author = "TOMASWEBSOLUTIONS", meta, title = "ACCOUNTING" }) {
   const metaData = [
     {
       name: `description`,

@@ -21,7 +21,7 @@ export default function IndexPage() {
     <ThemeProvider theme={theme}>
       <StickyProvider>
         <Layout>
-          <SEO title="Startup Landing 004" />
+          <SEO title="ALEMACCOUNTING" />
           <Banner />
           <KeyFeature />
           {/* <CoreFeature /> */}

@@ -44,29 +44,29 @@ export default function Banner() {
     <section sx={styles.banner} id="home">
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
-          <Heading as="h1" variant="heroPrimary">
+          <Heading as="p" variant="heroPrimary">
             '✋🏾' WELCOME FROM ALEMACCOUNTING
           </Heading>
-
-          <TypeAnimation
-            color="white"
-            // Same String at the start will only be typed once, initially
-            sequence={[
-              "Dé boekhouder voor MKB ,ZZP'ers ,VOF ,Starters",
-              1000,
-              "Complete boekhouding vanaf €49,- per maand",
-              1000,
-              "Persoonlijk advies voor jou en jouw onderneming",
-              1000,
-              "Tips voor meer belastingvoordeel",
-              1000,
-            ]}
-            speed={50} // Custom Speed from 1-99 - Default Speed: 40
-            style={{ fontSize: "2em" }}
-            wrapper="span" // Animation will be rendered as a <span>
-            repeat={Infinity} // Repeat this Animation Sequence infinitely
-          />
-
+          <Box sx={{ height: "300px" }}>
+            <TypeAnimation
+              color="white"
+              // Same String at the start will only be typed once, initially
+              sequence={[
+                "Dé boekhouder voor MKB ,ZZP'ers ,VOF ,Starters",
+                1000,
+                "Complete boekhouding vanaf €49,- per maand",
+                1000,
+                "Persoonlijk advies voor jou en jouw onderneming",
+                1000,
+                "Tips voor meer belastingvoordeel",
+                1000,
+              ]}
+              speed={50} // Custom Speed from 1-99 - Default Speed: 40
+              style={{ fontSize: "2em" }}
+              wrapper="span" // Animation will be rendered as a <span>
+              repeat={Infinity} // Repeat this Animation Sequence infinitely
+            />
+          </Box>
           <Flex>
             <Link activeClass="active" to={"contact"} spy={true} smooth={true} offset={-70} duration={500}>
               <Button variant="whiteButton" aria-label="Get Started">
