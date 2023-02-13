@@ -3,7 +3,7 @@ import { jsx } from "theme-ui";
 import { Container, Flex, Box, Heading, Text, Image, Button } from "theme-ui";
 import React, { useState } from "react";
 import ModalVideo from "react-modal-video";
-import { Link } from "components/link";
+import { Link } from "react-scroll";
 import { FaPlayCircle } from "react-icons/fa";
 import BannerBG from "assets/bannerBg.png";
 import BannerThumb from "assets/banner.jpeg";
@@ -68,9 +68,11 @@ export default function Banner() {
           />
 
           <Flex>
-            <Button variant="whiteButton" aria-label="Get Started">
-              Contact
-            </Button>
+            <Link activeClass="active" to={"contact"} spy={true} smooth={true} offset={-70} duration={500}>
+              <Button variant="whiteButton" aria-label="Get Started">
+                Contact
+              </Button>
+            </Link>
             <>
               <ModalVideo channel="youtube" isOpen={videoOpen} videoId="" onClose={() => setVideoOpen(false)} />
               <Button variant="textButton" aria-label="Watch Video" onClick={handleClick}>
