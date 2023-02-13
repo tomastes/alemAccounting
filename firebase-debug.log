@@ -65,3 +65,37 @@
     at async deploy (/usr/local/lib/node_modules/firebase-tools/lib/deploy/index.js:53:13)
 [error] 
 [error] Error: An unexpected error has occurred.
+[debug] [2023-02-13T16:19:08.109Z] ----------------------------------------------------------------------
+[debug] [2023-02-13T16:19:08.115Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2023-02-13T16:19:08.116Z] CLI Version:   11.22.0
+[debug] [2023-02-13T16:19:08.117Z] Platform:      darwin
+[debug] [2023-02-13T16:19:08.117Z] Node Version:  v16.17.0
+[debug] [2023-02-13T16:19:08.120Z] Time:          Mon Feb 13 2023 17:19:08 GMT+0100 (Central European Standard Time)
+[debug] [2023-02-13T16:19:08.120Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-02-13T16:19:08.245Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-02-13T16:19:08.246Z] > authorizing via signed-in user (tomaswebsolutions@gmail.com)
+[debug] [2023-02-13T16:19:08.246Z] [iam] checking project alemaccounting for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-02-13T16:19:08.250Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/alemaccounting:testIamPermissions [none]
+[debug] [2023-02-13T16:19:08.251Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/alemaccounting:testIamPermissions x-goog-quota-user=projects/alemaccounting
+[debug] [2023-02-13T16:19:08.251Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/alemaccounting:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-02-13T16:19:08.645Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/alemaccounting:testIamPermissions 200
+[debug] [2023-02-13T16:19:08.646Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/alemaccounting:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-02-13T16:19:08.647Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/alemaccounting [none]
+[debug] [2023-02-13T16:19:08.937Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/alemaccounting 200
+[debug] [2023-02-13T16:19:08.941Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/alemaccounting {"projectId":"alemaccounting","projectNumber":"230741309052","displayName":"alemAccounting","name":"projects/alemaccounting","resources":{"hostingSite":"alemaccounting"},"state":"ACTIVE","etag":"1_466fd7fb-55fb-4b25-a229-21ffe3c2c18c"}
+[debug] [2023-02-13T16:19:17.436Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/alemaccounting/sites pageToken=&pageSize=10
+[debug] [2023-02-13T16:19:18.368Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/alemaccounting/sites 200
+[debug] [2023-02-13T16:19:18.369Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/alemaccounting/sites {"sites":[{"name":"projects/alemaccounting/sites/alemaccounting","defaultUrl":"https://alemaccounting.web.app","appId":"1:230741309052:web:d508854e7b967916d83bf9","type":"DEFAULT_SITE"}]}
+[debug] [2023-02-13T16:19:18.370Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:230741309052:web:d508854e7b967916d83bf9/config [none]
+[debug] [2023-02-13T16:19:19.376Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:230741309052:web:d508854e7b967916d83bf9/config 200
+[debug] [2023-02-13T16:19:19.376Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:230741309052:web:d508854e7b967916d83bf9/config {"projectId":"alemaccounting","appId":"1:230741309052:web:d508854e7b967916d83bf9","storageBucket":"alemaccounting.appspot.com","apiKey":"AIzaSyAUwTPuvQqbpMEZstk3eeHP5LF4CUd0sN0","authDomain":"alemaccounting.firebaseapp.com","messagingSenderId":"230741309052"}
+[debug] [2023-02-13T16:21:06.202Z] Error: Unable to load next.config.js.
+    at getConfig (/usr/local/lib/node_modules/firebase-tools/lib/frameworks/next/index.js:285:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async build (/usr/local/lib/node_modules/firebase-tools/lib/frameworks/next/index.js:55:40)
+    at async prepareFrameworks (/usr/local/lib/node_modules/firebase-tools/lib/frameworks/index.js:246:108)
+    at async deploy (/usr/local/lib/node_modules/firebase-tools/lib/deploy/index.js:53:13)
+[error] 
+[error] Error: An unexpected error has occurred.
