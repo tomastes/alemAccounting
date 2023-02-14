@@ -6,7 +6,7 @@ import ModalVideo from "react-modal-video";
 import { Link } from "react-scroll";
 import { FaPlayCircle } from "react-icons/fa";
 import BannerBG from "assets/bannerBg.png";
-import BannerThumb from "assets/banner.jpeg";
+import BannerThumb from "assets/BannerThumb.jpeg";
 
 import client1 from "assets/sponsor/paypal.svg";
 import client2 from "assets/sponsor/google.svg";
@@ -93,7 +93,7 @@ export default function Banner() {
           </Flex>
         </Box>
 
-        <Box sx={styles.banner.imageBox}>{/* <Image src={BannerThumb} alt="banner" /> */}</Box>
+        <Box sx={styles.banner.imageBox}><Image src={BannerThumb} alt="banner" /></Box>
       </Container>
     </section>
   );
@@ -112,6 +112,7 @@ const styles = {
     backgroundColor: "secondary",
     container: {
       display: "flex",
+      justifyContent:"space-around"
     },
     contentBox: {
       width: ["100%", null, "85%", "55%", "50%", "55%"],

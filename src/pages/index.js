@@ -15,6 +15,7 @@ import SecurePayment from "sections/secure-payment";
 import Package from "sections/package";
 import Faq from "sections/faq";
 import Contact from "sections/contact";
+import Accountants from "sections/accountants";
 
 export default function IndexPage() {
   return (
@@ -33,6 +34,7 @@ export default function IndexPage() {
           <Package />
           <Contact />
           <Faq />
+          <Accountants />
         </Layout>
       </StickyProvider>
     </ThemeProvider>

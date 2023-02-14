@@ -43,11 +43,11 @@ export default [
       },
       {
         path: "",
-        label: "email:",
+        label: "email: info@alemaccounting.com",
       },
       {
         path: "",
-        label: "KVK:",
+        label: "KVK: 86281070",
       },
       {
         path: "/",
