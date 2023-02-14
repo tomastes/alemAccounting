@@ -1,6 +1,7 @@
 /** @jsx jsx */
 import { jsx, Heading, Box, Container, Text } from "theme-ui";
 import { Link } from "react-scroll";
+import { Link  as A} from "theme-ui";
 import menuItems from "./footer.data";
 import { WhatsAppWidget } from "react-whatsapp-widget";
 import Logo from "components/logo";
@@ -38,7 +39,7 @@ export default function Footer() {
                 {items.map(({ path, label }, i) => (
                   path == 'socials'?  <Box sx={styles.social}>  {social.map(({ path, icon }, i) => (
                 <Box as="span" key={i} sx={styles.social.icon}>
-                 <Link target="_blank" href={path} rel> {icon}</Link>
+                 <A target="_blank" href={path} rel> {icon}</A>
               
                 </Box>
               ))}</Box> :
@@ -55,9 +56,9 @@ export default function Footer() {
       </Container>
       <Text sx={styles.footer.copyright}>
         ©Developed by
-        <Link path="https://linktr.ee/tomastes?fbclid=PAAaYA-H700TYjjYCVVUyfH3fKIIKJKD_rEjwlKuqCcxD5diLkKdFrszxpHxI" target="_blank">
-          TOMASWEBSOLUTIONS
-        </Link>
+        <A rel href="https://linktr.ee/tomastes?fbclid=PAAaYA-H700TYjjYCVVUyfH3fKIIKJKD_rEjwlKuqCcxD5diLkKdFrszxpHxI" target="_blank">
+        <span style={{fontStyle:"italic" ,fontWeight:500,margin:"0"}}>tomaswebsolutions</span>  
+        </A>
       </Text>
     </footer>
   );
