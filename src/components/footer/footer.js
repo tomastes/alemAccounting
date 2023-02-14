@@ -54,10 +54,10 @@ export default function Footer() {
         </Box>
       </Container>
       <Text sx={styles.footer.copyright}>
-        All right reserved - Design & Developed by
-        {/* <Link path="https://redq.io/" target="_blank">
-          RedQ, Inc
-        </Link> */}
+        ©Developed by
+        <Link path="https://linktr.ee/tomastes?fbclid=PAAaYA-H700TYjjYCVVUyfH3fKIIKJKD_rEjwlKuqCcxD5diLkKdFrszxpHxI" target="_blank">
+          TOMASWEBSOLUTIONS
+        </Link>
       </Text>
     </footer>
   );
