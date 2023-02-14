@@ -5,6 +5,7 @@ import Drawer from "components/drawer";
 import { DrawerContext } from "../../contexts/drawer/drawer.context";
 import { IoMdClose, IoMdMenu } from "react-icons/io";
 import { Link } from "react-scroll";
+import {Link as A} from 'theme-ui'
 import { FaFacebookF, FaTwitter, FaGithubAlt, FaDribbble, FaInstagram } from "react-icons/fa";
 import menuItems from "./header.data";
 
@@ -13,18 +14,19 @@ const social = [
     path: "/",
     icon: <FaFacebookF />,
   },
-  {
-    path: "/",
-    icon: <FaTwitter />,
-  },
-  {
-    path: "/",
+    {
+    path: "https://instagram.com/alemaccounting?igshid=YmMyMTA2M2Y=",
     icon: <FaInstagram />,
   },
   {
     path: "/",
-    icon: <FaDribbble />,
+    icon: <FaTwitter />,
   },
+
+  // {
+  //   path: "/",
+  //   icon: <FaDribbble />,
+  // },
 ];
 
 const MobileDrawer = () => {
@@ -65,7 +67,8 @@ const MobileDrawer = () => {
             <Box sx={styles.social}>
               {social.map(({ path, icon }, i) => (
                 <Box as="span" key={i} sx={styles.social.icon}>
-                  <Link to={path}>{icon}</Link>
+                 <A target="_blank" href={path} rel> {icon}</A>
+              
                 </Box>
               ))}
             </Box>

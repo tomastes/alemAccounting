@@ -31,6 +31,10 @@ export default [
         path: "contact",
         label: "contact us",
       },
+      {
+        path: "socials",
+        label: "contact us",
+      },
     ],
   },
 

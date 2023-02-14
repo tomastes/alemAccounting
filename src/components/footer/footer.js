@@ -6,6 +6,21 @@ import { WhatsAppWidget } from "react-whatsapp-widget";
 import Logo from "components/logo";
 import LogoDark from "assets/logo-dark.svg";
 import LogoWhite from "assets/logo.svg";
+import { FaFacebookF, FaTwitter, FaGithubAlt, FaDribbble, FaInstagram } from "react-icons/fa";
+
+const social = [
+  {
+    path: "/",
+    icon: <FaFacebookF />,
+  },
+    {
+    path: "https://instagram.com/alemaccounting?igshid=YmMyMTA2M2Y=",
+    icon: <FaInstagram />,
+  },
+  {
+    path: "/",
+    icon: <FaTwitter />,
+  },]
 export default function Footer() {
   return (
     <footer sx={styles.footer}>
@@ -21,13 +36,21 @@ export default function Footer() {
               <Heading sx={styles.footer.heading}>{header}</Heading>
               <nav style={{ display: "flex", flexDirection: "column" }}>
                 {items.map(({ path, label }, i) => (
+                  path == 'socials'?  <Box sx={styles.social}>  {social.map(({ path, icon }, i) => (
+                <Box as="span" key={i} sx={styles.social.icon}>
+                 <Link target="_blank" href={path} rel> {icon}</Link>
+              
+                </Box>
+              ))}</Box> :
                   <Link sx={{ cursor: "pointer" }} activeClass="active" to={path} spy={true} smooth={true} offset={-70} duration={500} key={i}>
                     {label}
                   </Link>
                 ))}
+             
               </nav>
             </Box>
           ))}
+              
         </Box>
       </Container>
       <Text sx={styles.footer.copyright}>
@@ -102,6 +125,29 @@ const styles = {
         "&:hover": {
           color: "primary",
         },
+      },
+    },
+  },
+   social: {
+    // width: "100%",
+    display: "flex",
+    alignItems: "center",
+    // justifyContent: "center",
+
+    icon: {
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+      color: "text",
+      fontSize: 14,
+      mr: "15px",
+      transition: "all 0.25s",
+      cursor: "pointer",
+      ":last-child": {
+        mr: "0",
+      },
+      "&:hover": {
+        color: "secondary",
       },
     },
   },
