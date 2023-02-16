@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import Router from "next/router";
 import { initGA, logPageView } from "analytics";
-import { Analytics } from "@vercel/analytics";
+import { Analytics } from "@vercel/analytics/react";
 import "react-whatsapp-widget/dist/index.css";
 // Load DM Sans typeface
 import "typeface-dm-sans";
