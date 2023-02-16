@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 import Router from "next/router";
 import { initGA, logPageView } from "analytics";
-import { Analytics } from "@vercel/analytics/react";
 import "react-whatsapp-widget/dist/index.css";
 // Load DM Sans typeface
 import "typeface-dm-sans";
@@ -18,10 +17,5 @@ export default function CustomApp({ Component, pageProps }) {
     Router.events.on("routeChangeComplete", logPageView);
   }, []);
 
-  return (
-    <>
-      <Component {...pageProps} />
-      <Analytics />
-    </>
-  );
+  return <Component {...pageProps} />;
 }
