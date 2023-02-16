@@ -5,18 +5,18 @@ import Rating from "components/rating";
 import ButtonGroup from "components/button-group";
 import Carousel from "react-multi-carousel";
 
-import Avatar1 from "assets/natuAvatar.jpeg";
-import Avatar2 from "assets/testimonial/avatar2.png";
+import Avatar1 from "assets/natu2.JPG";
+import Avatar2 from "assets/ambaAvatar.JPG";
 
 
 const data = [
   {
     id: 1,
-    title: "AMBA",
+    title: "AMBA (bedrijfsadministrateur)",
     description:
-      "Lorem ipsum odor amet, consectetuer adipiscing elit. Ac purus in massa egestas mollis varius dignissim elementum. Mollis tincidunt mattis hendrerit dolor eros enim, nisi ligula ornare",
-    avatar: Avatar1,
-    name: "AMBES ",
+      "Mijn naam is Amba, ik studeer voor juridisch administratief medewerker. Bovendien heb ik de studie bedrijfsadministrateur gevolgd en help ik ondernemers met hun administratie. Met u kan ik ieder half jaar de voortgang van uw bedrijf bespreken en advies geven om uw bedrijf gezond te laten groeien.",
+    avatar: Avatar2,
+    name: "Ambasajir Fiseha",
     // designation: "@email.com",
     review: 4,
   },
@@ -24,7 +24,7 @@ const data = [
     id: 2,
     title: "NATU",
     description:
-      "Natnael, 20 jaar oud. Met veel ervaring en verantwoordelijkheid, daarnaast de wil om mensen te helpen die moeite hebben met administratie ofwel boekhouding. Wij zien jouw bedrijf groeien.",
+      "Natnael,  Met veel ervaring en verantwoordelijkheid, daarnaast de wil om mensen te helpen die moeite hebben met administratie ofwel boekhouding. Wij zien jouw bedrijf groeien.",
     avatar: Avatar1,
     name: "NATNAEL TESFAHUN ",
     // designation: "@email.com",
@@ -136,6 +136,7 @@ const styles = {
   reviewCard: {
     boxShadow: "0px 0px 1px rgba(38, 78, 118, 0.35)",
     transition: "all 0.3s",
+    minHeight:"500px",
     borderRadius: "6px",
     p: ["30px 20px 35px", "30px 25px 35px", "30px 20px 35px", "35px 30px 40px 40px", "30px 30px 35px", "35px 30px 40px 40px"],
     bg: "white",
