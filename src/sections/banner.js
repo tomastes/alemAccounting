@@ -44,7 +44,7 @@ export default function Banner() {
     <section sx={styles.banner} id="home">
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
-          <Heading as="p" variant="heroPrimary">
+          <Heading as="p"  variant="heroPrimary"sx={{fontSize:"40px !important"}}>
             '✋🏾' WELCOME FROM ALEMACCOUNTING
           </Heading>
           <Box sx={{ height: "300px" }}>
@@ -60,6 +60,7 @@ export default function Banner() {
                 1000,
                 "Tips voor meer belastingvoordeel",
                 1000,
+                "Juridische dienstverlening,Wij maken al uw juridische zaken in orde",2000
               ]}
               speed={50} // Custom Speed from 1-99 - Default Speed: 40
               style={{ fontSize: "2em" }}
@@ -67,6 +68,9 @@ export default function Banner() {
               repeat={Infinity} // Repeat this Animation Sequence infinitely
             />
           </Box>
+       <Heading as="p"  variant="heroPrimary"sx={{fontSize:"30px !important"}}>
+         Juridische dienstverlening,<br />Wij maken al uw juridische zaken in orde
+          </Heading>
           <Flex>
             <Link activeClass="active" to={"contact"} spy={true} smooth={true} offset={-70} duration={500}>
               <Button variant="whiteButton" aria-label="Get Started">

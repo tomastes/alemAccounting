@@ -14,8 +14,7 @@ const data = [
   {
     id: 1,
     title: "TITLE OF THE FEEDBACK",
-    description:
-      "Lorem ipsum odor amet, consectetuer adipiscing elit. Ac purus in massa egestas mollis varius dignissim elementum. Mollis tincidunt mattis hendrerit dolor eros enim, nisi ligula ornare",
+    description:"Fijne communicatie en de boekhouding is altijd op tijd netjes afgerond.Ik ben tevreden hoe alemAccounting doen.",
     avatar: Avatar1,
     name: "myname ",
     designation: "@email.com",
@@ -25,7 +24,7 @@ const data = [
     id: 2,
     title: "TITLE OF THE FEEDBACK",
     description:
-      "Lorem ipsum odor amet, consectetuer adipiscing elit. Ac purus in massa egestas mollis varius dignissim elementum. Mollis tincidunt mattis hendrerit dolor eros enim, nisi ligula ornare",
+      "bettrokken, top service,heldere communicatie, komt afspraken na en vooral betrouwbar en vriendelijk",
     avatar: Avatar2,
     name: "myname ",
     designation: "@email.com",
@@ -35,22 +34,13 @@ const data = [
     id: 3,
     title: "TITLE OF THE FEEDBACK",
     description:
-      "Lorem ipsum odor amet, consectetuer adipiscing elit. Ac purus in massa egestas mollis variu  dignissim elementum. Mollis tincidunt mattis hendrerit dolor eros enim, nisi ligula ornare",
+      "Zeer persoonlijk afgestemd, zeer snel in telefonisch overleg. Erg vriendelijk. Erg duidelijk en praktisch systeem",
     avatar: Avatar3,
     name: "myname ",
     designation: "@email.com",
     review: 5,
   },
-  {
-    id: 4,
-    title: "TITLE OF THE FEEDBACK",
-    description:
-      "Lorem ipsum odor amet, consectetuer adipiscing elit. Ac purus in massa egestas mollis varius dignissim elementum. Mollis tincidunt mattis hendrerit dolor eros enim, nisi ligula ornare",
-    avatar: Avatar4,
-    name: "myname ",
-    designation: "@email.com",
-    review: 4,
-  },
+  
 ];
 
 const responsive = {

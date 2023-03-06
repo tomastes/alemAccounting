@@ -7,6 +7,7 @@ import Carousel from "react-multi-carousel";
 
 import Avatar1 from "assets/natu2.JPG";
 import Avatar2 from "assets/ambaAvatar.JPG";
+import Avatar3 from "assets/edenAvatar.jpeg";
 
 
 const data = [
@@ -30,29 +31,39 @@ const data = [
     // designation: "@email.com",
     review: 5,
   },
+  {
+    id: 2,
+    title: "EDEN",
+    description:
+      <span>Eden ,<br /> Ik studeer financieel administratie en accountant afgerond in Eritrea. Graag help ik ondernemers bij hun administratie.       <br />      ‘’laten we samen naar de Top’’.</span>,
+    avatar: Avatar3,
+    name: "EDEN  ",
+    // designation: "@email.com",
+    review: 5,
+  },
  
 ];
 
 const responsive = {
   desktop: {
     breakpoint: { max: 3000, min: 1619 },
-    items: 2,
-    slidesToSlide: 2, // optional, default to 1.
+    items: 3,
+    // slidesToSlide: 1, // optional, default to 1.
   },
   laptop: {
     breakpoint: { max: 1619, min: 1024 },
-    items: 2,
-    slidesToSlide: 2, // optional, default to 1.
+    items: 3,
+    // slidesToSlide: 1, // optional, default to 1.
   },
   tablet: {
     breakpoint: { max: 1024, min: 640 },
     items: 2,
-    slidesToSlide: 2, // optional, default to 1.
+    // slidesToSlide: 1, // optional, default to 1.
   },
   mobile: {
     breakpoint: { max: 639, min: 0 },
     items: 1,
-    slidesToSlide: 1, // optional, default to 1.
+    // slidesToSlide: 1, // optional, default to 1.
   },
 };
 
