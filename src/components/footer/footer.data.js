@@ -43,7 +43,7 @@ export default [
     items: [
       {
         path: "",
-        label: "tele:",
+        label: "tele: +31 684061316",
       },
       {
         path: "",

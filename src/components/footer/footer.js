@@ -25,7 +25,7 @@ const social = [
 export default function Footer() {
   return (
     <footer sx={styles.footer}>
-      <WhatsAppWidget phoneNumber="XXXXXXXXXX" />
+      <WhatsAppWidget phoneNumber="31684061316" />
 
       <Container sx={styles.footer.container}>
         <Box sx={styles.footer.footerTopArea}>
