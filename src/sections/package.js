@@ -7,30 +7,30 @@ import PatternBG from "assets/patternBG.png";
 
 const packages = [
   {
-    header: "populair",
-    name: "Compleet",
+    // header: 'Recommended',
+    name: "Basis",
     description: "For everyone",
-    priceWithUnit: "$109.99/",
+    priceWithUnit: "$49.99/",
     buttonText: "I want this",
     points: [
       {
         icon: <IoIosCheckmarkCircle />,
-        text: " Alles van Plus",
+        text: "Verwerken administratie",
         isAvailable: true,
       },
       {
         icon: <IoIosCheckmarkCircle />,
-        text: "oonberperkt transactie per maand",
+        text: " 50 transacties per maand.",
         isAvailable: true,
       },
       {
         icon: <IoIosCheckmarkCircle />,
-        text: "Bankkoppeling",
+        text: "Aangifte inkomstenbelasting",
         isAvailable: true,
       },
       {
         icon: <IoIosCheckmarkCircle />,
-        text: " 1x per kwartaal Haal- en brengservice van je administratie",
+        text: "Cloudopslag",
         isAvailable: true,
       },
     ],
@@ -64,34 +64,36 @@ const packages = [
     ],
   },
   {
-    // header: 'Recommended',
-    name: "Basis",
+    header: "populair",
+    name: "Compleet",
     description: "For everyone",
-    priceWithUnit: "$49.99/",
+    priceWithUnit: "$109.99/",
     buttonText: "I want this",
     points: [
       {
         icon: <IoIosCheckmarkCircle />,
-        text: "Verwerken administratie",
+        text: " Alles van Plus",
         isAvailable: true,
       },
       {
         icon: <IoIosCheckmarkCircle />,
-        text: " 50 transacties per maand.",
+        text: "oonberperkt transactie per maand",
         isAvailable: true,
       },
       {
         icon: <IoIosCheckmarkCircle />,
-        text: "Aangifte inkomstenbelasting",
+        text: "Bankkoppeling",
         isAvailable: true,
       },
       {
         icon: <IoIosCheckmarkCircle />,
-        text: "Cloudopslag",
+        text: " 1x per kwartaal Haal- en brengservice van je administratie",
         isAvailable: true,
       },
     ],
   },
+ 
+ 
 ];
 export default function Package() {
   return (

@@ -7,7 +7,6 @@ import { Link } from "react-scroll";
 import { FaPlayCircle } from "react-icons/fa";
 import BannerBG from "assets/bannerBg.png";
 import BannerThumb from "assets/BannerThumb.jpeg";
-
 import client1 from "assets/sponsor/paypal.svg";
 import client2 from "assets/sponsor/google.svg";
 import client3 from "assets/sponsor/dropbox.svg";
@@ -78,7 +77,7 @@ export default function Banner() {
               </Button>
             </Link>
             <>
-              <ModalVideo channel="youtube" isOpen={videoOpen} videoId="" onClose={() => setVideoOpen(false)} />
+              <ModalVideo channel="custom" url="https://ik.imagekit.io/tnlvkh6huk/08cbba61-3242-4b34-bdf1-15f32c52a2c9.MP4?updatedAt=1678710326644" isOpen={videoOpen} videoId="xQMM0uETerQ" onClose={() => setVideoOpen(false)} />
               <Button variant="textButton" aria-label="Watch Video" onClick={handleClick}>
                 <FaPlayCircle /> Watch Video
               </Button>
