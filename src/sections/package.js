@@ -35,63 +35,63 @@ const packages = [
       },
     ],
   },
-  {
-    name: "PLus",
-    description: "voor everyone",
-    priceWithUnit: "$69.99/",
-    buttonText: "I want this",
-    points: [
-      {
-        icon: <IoIosCheckmarkCircle />,
-        text: " Alles van Basis",
-        isAvailable: true,
-      },
-      {
-        icon: <IoIosCheckmarkCircle />,
-        text: "100 transactie per maand",
-        isAvailable: true,
-      },
-      {
-        icon: <IoIosCheckmarkCircle />,
-        text: "Aangifte omzetbelasting (kwartaal)",
-        isAvailable: true,
-      },
-      {
-        icon: <IoIosCheckmarkCircle />,
-        text: "Persoonlijke begeleiding",
-        isAvailable: true,
-      },
-    ],
-  },
-  {
-    header: "populair",
-    name: "Compleet",
-    description: "For everyone",
-    priceWithUnit: "$109.99/",
-    buttonText: "I want this",
-    points: [
-      {
-        icon: <IoIosCheckmarkCircle />,
-        text: " Alles van Plus",
-        isAvailable: true,
-      },
-      {
-        icon: <IoIosCheckmarkCircle />,
-        text: "oonberperkt transactie per maand",
-        isAvailable: true,
-      },
-      {
-        icon: <IoIosCheckmarkCircle />,
-        text: "Bankkoppeling",
-        isAvailable: true,
-      },
-      {
-        icon: <IoIosCheckmarkCircle />,
-        text: " 1x per kwartaal Haal- en brengservice van je administratie",
-        isAvailable: true,
-      },
-    ],
-  },
+  // {
+  //   name: "PLus",
+  //   description: "voor everyone",
+  //   priceWithUnit: "$69.99/",
+  //   buttonText: "I want this",
+  //   points: [
+  //     {
+  //       icon: <IoIosCheckmarkCircle />,
+  //       text: " Alles van Basis",
+  //       isAvailable: true,
+  //     },
+  //     {
+  //       icon: <IoIosCheckmarkCircle />,
+  //       text: "100 transactie per maand",
+  //       isAvailable: true,
+  //     },
+  //     {
+  //       icon: <IoIosCheckmarkCircle />,
+  //       text: "Aangifte omzetbelasting (kwartaal)",
+  //       isAvailable: true,
+  //     },
+  //     {
+  //       icon: <IoIosCheckmarkCircle />,
+  //       text: "Persoonlijke begeleiding",
+  //       isAvailable: true,
+  //     },
+  //   ],
+  // },
+  // {
+  //   header: "populair",
+  //   name: "Compleet",
+  //   description: "For everyone",
+  //   priceWithUnit: "$109.99/",
+  //   buttonText: "I want this",
+  //   points: [
+  //     {
+  //       icon: <IoIosCheckmarkCircle />,
+  //       text: " Alles van Plus",
+  //       isAvailable: true,
+  //     },
+  //     {
+  //       icon: <IoIosCheckmarkCircle />,
+  //       text: "oonberperkt transactie per maand",
+  //       isAvailable: true,
+  //     },
+  //     {
+  //       icon: <IoIosCheckmarkCircle />,
+  //       text: "Bankkoppeling",
+  //       isAvailable: true,
+  //     },
+  //     {
+  //       icon: <IoIosCheckmarkCircle />,
+  //       text: " 1x per kwartaal Haal- en brengservice van je administratie",
+  //       isAvailable: true,
+  //     },
+  //   ],
+  // },
  
  
 ];
