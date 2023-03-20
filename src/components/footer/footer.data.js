@@ -51,7 +51,7 @@ export default [
       },
       {
         path: "",
-        label: "KVK: 86281070",
+        label: "KVK: 89559983",
       },
       {
         path: "/",
