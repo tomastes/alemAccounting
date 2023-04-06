@@ -96,7 +96,7 @@ export default function Banner() {
           </Flex>
         </Box>
 
-        <Box sx={styles.banner.imageBox}><Image src={BannerThumb} alt="banner" /></Box>
+        {/* <Box sx={styles.banner.imageBox}><Image src={BannerThumb} alt="banner" /></Box> */}
       </Container>
     </section>
   );

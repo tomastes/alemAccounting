@@ -27,10 +27,11 @@ export default function PriceCard({ data: { header, name, description, priceWith
           </Box>
 
           <Text className="package__price" sx={styles.price}>
-            <span>Starting from</span>
+            {/* <span>Starting from</span> */}
             <div className="price">
-              {priceWithUnit}
-              <sub>mo</sub>
+              {/* {priceWithUnit}\] */}
+              Prijs in overleg
+              {/* <sub>mo</sub */}
             </div>
           </Text>
         </Flex>
