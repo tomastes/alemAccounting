@@ -44,7 +44,7 @@ export default function Banner() {
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="p"  variant="heroPrimary"sx={{fontSize:"40px !important"}}>
-            '✋🏾' WELCOME FROM ALEMACCOUNTING
+            '✋🏾' WELCOME FROM ALEMACCOUNTING B.V
           </Heading>
           <Box sx={{ height: "300px" }}>
             <TypeAnimation
