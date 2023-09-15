@@ -8,6 +8,7 @@ import Carousel from "react-multi-carousel";
 import Avatar1 from "assets/natu2.JPG";
 import Avatar2 from "assets/ambaAvatar.JPG";
 import Avatar3 from "assets/edenAvatar.jpeg";
+import Avatar4 from "assets/yodit.jpeg";
 
 
 const data = [
@@ -32,7 +33,7 @@ const data = [
     review: 5,
   },
   {
-    id: 2,
+    id: 3,
     title: "EDEN",
     description:
       <span>Eden ,<br /> Ik studeer financieel administratie en accountant afgerond in Eritrea. Graag help ik ondernemers bij hun administratie.       <br />      ‘’laten we samen naar de Top’’.</span>,
@@ -41,6 +42,16 @@ const data = [
     // designation: "@email.com",
     review: 5,
   },
+  {
+    id: 4,
+    title: "Yodit",
+    avatar: Avatar4,
+    description:
+    `Yodit, Ik  heb Bedrijfsadministratie afgerond (nog de wil om te groeien in kennis) 
+    en heb werkervaring als financieel administratief medewerker. Volledig bereid om u te helpen met uw administratie. Laat de administratieve taken aan ons over en concentreer u op de groei van uw bedrijf. samen staan wij sterker!`,
+     name: "Yodit",
+     review: 5,
+  }
  
 ];
 
